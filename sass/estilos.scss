@@ -1,0 +1,20 @@
+$alfa:1/4;
+$colorFooter: rgba(random($limit: 255),random($limit: 255),random($limit: 255),$alfa);
+
+h1{
+    color: yellowgreen;
+}
+
+footer{
+    background: #443;
+}
+
+
+footer{
+    background: $colorFooter;
+    h4{
+        color: red;
+
+        a{ color: blue;}
+    }
+}
